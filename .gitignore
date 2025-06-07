@@ -4,3 +4,10 @@ pyinstaller-*
 brigadier*.zip
 /brigadier.plist
 BootCamp-*
+
+# python
+__pycache__
+
+# vscode
+.venv
+.vscode
