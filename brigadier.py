@@ -369,7 +369,7 @@ according to the post date.")
 
     status("Done.")
     input("Press [enter] to exit...")
-    quit()
+    sys.exit()
 
 if __name__ == "__main__":
     main()
