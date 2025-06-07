@@ -3,7 +3,7 @@ import os,sys,subprocess,re,tempfile,shutil,optparse,datetime,platform,plistlib,
 from xml.dom import minidom
 import downloader
 
-if 2/3==0: input = raw_input
+if 2/3==0: input = raw_input # type: ignore
 
 # SUCATALOG_URL = 'http://swscan.apple.com/content/catalogs/others/index-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog'
 SUCATALOG_URL = 'https://swscan.apple.com/content/catalogs/others/index-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog'
@@ -369,6 +369,7 @@ according to the post date.")
 
     status("Done.")
     input("Press [enter] to exit...")
+    quit()
 
 if __name__ == "__main__":
     main()
