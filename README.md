@@ -1,5 +1,5 @@
 # Brigadier
-> This is a fork of a fork of the original Brigadier repository, CorpNewt put the heavy lifting in of updating Brigadier to use Python 3, I just wrote a bad .bat(should really make a shell script) to use modern pyinstaller to create an exe
+> This is a fork of a fork of the original Brigadier repository, CorpNewt put the heavy lifting in of updating Brigadier to use Python 3, I just wrote a bad .bat file (should really make a shell script) to use modern pyinstaller to create an exe
 
 A Windows- and OS X-compatible Python script that fetches, from Apple's or your software update server, the Boot Camp ESD ("Electronic Software Distribution") for a specific model of Mac. It unpacks the multiple layers of archives within the flat package and if the script is run on Windows with the `--install` option, it also runs the 64-bit MSI installer.
 
